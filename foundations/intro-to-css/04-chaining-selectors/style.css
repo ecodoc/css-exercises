@@ -1,5 +1,6 @@
 /* Add CSS Styling */
 .avatar.proportioned {
+<<<<<<< HEAD
   height: auto;
   width: 300px;
 }
@@ -8,3 +9,13 @@
   height: 400px;
   width: 200px;
 }
+=======
+   height: auto;
+   width: 300px;
+} 
+
+.avatar.distorted {
+   width: 200px;
+   height: 400px;
+}
+>>>>>>> 41e2023 (add chained classes to css and then html)
