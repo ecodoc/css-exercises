@@ -1,22 +1,69 @@
-body{
-
+body {
+ height: 100vh; 
+ display: flex;
+ flex-direction: column;
 }
 
+
 header {
- background: #800080;
+ background-color: #800080;
  color: #fff;
  font-size: 32px;
  font-weight: 900;
+ padding-left: 16px;
 } 
 
 footer {
-
+   background-color: lightgray;
 } 
+
+p {
+   text-align: center;
+   color: #800080;
+}
 
 .sidebar {
+   background-color: #4782df;
+   width: 300px;
+} 
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
 
 } 
+
+a[href^="https://"]::before {
+
+}
+
 
 .card {
-
+border: 1px solid black;
+margin: 10px;
 } 
+
+
