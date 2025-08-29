@@ -43,32 +43,31 @@ a:link {
 }
 
 a:visited {
-
+   color: purple;
 }
 
 a:focus {
-
+   color: greenyellow;
 }
 
 a:hover {
-
+   color: red;
 }
 
 a:active {
-
+   color: greenyellow;
 } 
-
-a[href^="https://"]::before {
-
-}
 
 .container {
    display: flex;
 }
 
 .card {
-   border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px lightgray;
    margin: 10px;
+   padding: 16px;
+   max-width: 300px;
+   min-height: 250px;
 } 
 
 .card-container {
